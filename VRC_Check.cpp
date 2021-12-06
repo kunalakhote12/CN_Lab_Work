@@ -36,12 +36,11 @@ void decToBinary(int n){
  
 int main()
 {
-   char alfa ;
-   cout<<"enter any character : ";
+   char alfa;
+   cout<<"Enter any character : ";
    cin>>alfa;
    int asci=alfa;
    cout<<asci<<endl;
-    decToBinary(asci);
-
-    return 0;
+   decToBinary(asci);
+   return 0;
 }
