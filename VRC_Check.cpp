@@ -26,19 +26,22 @@ void decToBinary(int n){
  	 {
  	 	bit=1;
 	  }
-	  cout<<"bits : ";
+	  cout<<"bits : "<<bit;
     for (int j = i - 1; j >= 0; j--)
 		{
 		
         cout << binaryNum[j];
     }
-    cout<<bit;
 }
  
 int main()
 {
-   int n = 18;
-    decToBinary(n);
+   char alfa ;
+   cout<<"enter any character : ";
+   cin>>alfa;
+   int asci=alfa;
+   cout<<asci<<endl;
+    decToBinary(asci);
 
     return 0;
 }
